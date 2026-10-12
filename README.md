@@ -1,4 +1,4 @@
-# Hiring Process Analytics (Excel)
+# Hiring Process Analytics (Excel) 
 
 An Excel analysis of a company's hiring funnel using **7,148 interview records** (May–Aug 2014). It answers where hiring is concentrated, who gets hired, and what salaries are offered, to help a HR team decide where to focus.
 
