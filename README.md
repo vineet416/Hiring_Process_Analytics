@@ -42,13 +42,6 @@ One row per interview decision, stored as an Excel Table on the `Table` sheet.
 4. **Gender mix by department** – Finance and General Management applicants are ~89% female, while Operations, Sales, Marketing and Purchase skew male. This drives the overall "more males hired" result.
 5. **Job tiers** – **c9** (1,790) and **c5** (1,742) are about half of all applications. `i4` (35.6%) and `c-10` (45.5%) have the lowest hiring rates.
 
-## Data Notes
-
-- The report says the 0 – 10,000 salary band is smallest; in the current data it is **90,001 – 1,00,000** (656 vs 674). The bands are close to uniform.
-- The pivot in `Sheet6` is slightly stale (4,696 hired vs 4,683 in the table). Refresh it to sync.
-- 27 `application_id`s appear twice with different details, and `event_name` actually holds gender.
-- Department counts are applications, not current headcount. Salary is also offered to rejected candidates.
-
 ## Tech Stack
 
 - **Microsoft Excel** – cleaning, formulas, pivot tables, charts
